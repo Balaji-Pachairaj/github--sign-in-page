@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+.fullContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    margin-top: 3rem;
+}
+img{
+    transform: translateX(-50%);
+    position: relative;
+    left: 50%;
+    width: 3rem;
+}
+h1{
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+.form{
+    height: max-content;
+    border: 1px solid  hsla(210,18%,87%,1);
+    background-color: #f6f8fa;
+    width: 20rem;
+    font-size: 1rem;
+    box-shadow: 0.4px 0.4px 0.4px black ; 
+} 
+form{
+    padding-top: 1.2rem ;
+    padding-left: 1.2rem;
+}
+#userName{
+    font-size: 16px;
+}
+input{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height:1.2rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.4rem;
+}
+p{
+    display: inline;
+    margin-right: 30%;
+}
+#passLink{
+    margin-left: 10px;
+}
+a{
+    color:#0096FF;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#submit{
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color:#3CCF4E ;
+    border: none;
+    border-radius: 0.7rem;
+    margin-bottom: 2rem;
+}
+.accountCreate{
+    box-shadow: 0.4px 0.4px 0.4px black inset; 
+    border: 1px solid grey;
+    width: 20rem;
+    margin-top: 1.8rem;    
+    align-items: center;
+    display: flex;
+    height: 3.5rem;
+}
+#new{
+    margin: 0;
+    margin-left: 3rem;
+}
